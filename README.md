@@ -29,14 +29,3 @@ org.example.cafeteria
 4. o **Singleton** `ConfiguracaoLoja` fornece a taxa de serviço e o nome da loja.
 
 Total = (preço da bebida com desconto) x (1 + taxa de serviço / 100).
-
-## Como rodar os testes
-
-```
-mvn test
-```
-
-## Expandindo
-
-- Nova bebida: crie `Bebida<Nome>` em `bebidas` (a factory a encontra pelo nome).
-- Nova regra de desconto: implemente `IEstrategiaDesconto`.
